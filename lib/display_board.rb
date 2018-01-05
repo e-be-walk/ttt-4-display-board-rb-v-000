@@ -31,4 +31,3 @@ display_board(board)
 def display_board(board)
   puts " "   "  |  "   " |  "   " \n-----------\n "   "  |  "   " |  "   " \n-----------\n "   "  |  "   " |  "   " \n"
 end
-
