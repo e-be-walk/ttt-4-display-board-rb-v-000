@@ -2,5 +2,6 @@
 # out the current state.
 board = [" ", " ", " ", " ", " ", " ", " "," ", " "]
 def display_board(board)
+  output = capture_puts{display_board(board)}
   puts " "   "  |  "   " |  "   " \n-----------\n "   "  |  "   " |  "   " \n-----------\n "   "  |  "   " |  "   " \n"
 end
